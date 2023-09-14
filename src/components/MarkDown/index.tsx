@@ -1,5 +1,5 @@
 import classNames from 'classnames'
-import { useEffect, useMemo } from 'preact/hooks'
+import { useEffect, useMemo } from 'react'
 import toast from '@/utils/toast'
 import styles from './index.module.less'
 

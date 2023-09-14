@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'preact/hooks'
+import { useEffect, useRef, useState } from 'react'
 import { IErroeReson } from '@/common/types'
 import { getCurrentTab } from '@/utils/chrome'
 import toast from '@/utils/toast'

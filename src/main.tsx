@@ -1,6 +1,11 @@
-import { render } from 'preact'
+import React from 'react'
+import ReactDOM from 'react-dom/client'
 import App from './app'
 import './index.css'
 import '@/assets/css/toast.css'
 
-render(<App />, document.getElementById('app') as HTMLElement)
+ReactDOM.createRoot(document.getElementById('app')!).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+)

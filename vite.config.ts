@@ -1,9 +1,9 @@
 import { defineConfig } from 'vite'
-import preact from '@preact/preset-vite'
+import react from '@vitejs/plugin-react'
 import { resolve } from 'path'
 
 export default defineConfig({
-  plugins: [preact()],
+  plugins: [react()],
   build: {
     outDir: 'chrome-plugin-aigc-api',
     sourcemap: process.env.mode === 'dev',

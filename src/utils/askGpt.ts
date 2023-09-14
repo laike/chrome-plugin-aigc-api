@@ -21,6 +21,7 @@ export const onAskGpt = async (option: IAskGptOption) => {
   try {
     const response = await ask35Api({
       messages: sendMsg,
+      model: 'gpt-3.5-turbo',
     })
     const reader = response?.body?.getReader()
     onGetReader?.(reader)
