@@ -39,4 +39,6 @@
     "editor.formatOnSave": false
   },
   "liveServer.settings.port": 5502,
+  "nuxt.isNuxtApp": false,
+  "deepscan.enable": true,
 }
